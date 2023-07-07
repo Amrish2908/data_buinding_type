@@ -1,0 +1,9 @@
+<h1> Parent To Child</h1>
+
+<input type="text" [(ngModel)]="username" placeholder="User Name"/>
+<button type="submit" (click)="submitData()" >Submit</button>
+
+<app-one [childMessage]="parentdata"></app-one>
+
+
+
